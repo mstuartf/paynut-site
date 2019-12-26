@@ -1,0 +1,24 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.transition-fast {
+    transition: all .2s ease !important;
+}
+
+.hover\:zoom:hover {
+    transform: scale(1.02) translateY(-2%) translateX(0);
+}
+
+.text-shadow {
+    text-shadow: 1px 2px 0 rgba(0,0,0,.15);
+}
+
+mark {
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(40%,transparent),color-stop(0,#e7f7ff));
+    background: linear-gradient(180deg,transparent 40%,#e7f7ff 0);
+    color: inherit;
+}
