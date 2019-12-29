@@ -55,7 +55,8 @@ module.exports = {
             hash: true,
             template: './src/index.html',
             chunks: ['main', 'styles'],
-            filename: './index.html'
+            filename: './index.html',
+            favicon:  './src/favicon.ico'
         }),
 
         // build a file for the register page importing styles and the register bundle
@@ -63,7 +64,8 @@ module.exports = {
             hash: true,
             template: './src/register.html',
             chunks: ['register', 'styles'],
-            filename: './register.html'
+            filename: './register.html',
+            favicon:  './src/favicon.ico'
         }),
 
         // use Purge CSS to filter out unused styles to reduce the CSS bundle size
