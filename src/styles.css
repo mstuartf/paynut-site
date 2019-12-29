@@ -22,3 +22,18 @@ mark {
     background: linear-gradient(180deg,transparent 40%,#e7f7ff 0);
     color: inherit;
 }
+
+.ipad-img {
+    background-image: url('./assets/ipad_list.png');
+}
+
+.iphone-img {
+    background-image: url('./assets/iphone_detail.png');
+    background-size: 100% auto !important;
+}
+
+.frame-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
