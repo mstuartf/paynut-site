@@ -27,7 +27,7 @@ const submitContactForm = () => {
 };
 
 const handleSubmitSuccess = () => {
-  window.location.href = "/";
+  window.location.href = "/registration-successful.html";
 };
 
 // add event listeners for input and button
