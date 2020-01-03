@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
-    "build": "cross-env NODE_ENV=production webpack --no-progress"
+    "build": "cross-env NODE_ENV=production webpack --no-progress",
+    "deploy": "aws s3 sync ./dist s3://paynut-site --acl public-read"
   },
   "husky": {
     "hooks": {
