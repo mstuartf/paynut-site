@@ -1,6 +1,7 @@
-# Lightweight Site Template
+# Paynut landing page
 
-Built using Typescript, Tailwind, PurgeCSS, CSSNano, and Webpack.
+Live site [here](https://www.paynut.io/).
 
-Logo taken from [here](https://gauger.io/fonticon/).
+Built from [lightweight-site-template](https://github.com/mstuartf/lightweight-site-template).
 
+Icons from [undraw](https://undraw.co/).
